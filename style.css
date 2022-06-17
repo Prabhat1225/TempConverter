@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-size: 100%; */
+    user-select: none;
+    background-image: url("https://cdn.hswstatic.com/gif/celsius-convert.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+form{
+    width: 500px;
+}
+.title{
+           border-radius: 10px;
+           /* border: 5px solid black; */
+           background-color: bisque;
+           text-align: center;
+           padding: 15px;
+           text-shadow: #9ebbe0;
+           font-size: 30px;
+}
+.temp{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 6px 15px #3d3d3d,
+    -2px -3px 8px #e4dada;
+    /* background-color: #89a0be; */
+
+background-image: url("img.jpg");
+/* background-size: 100%; */
+}
+
+
+.display {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+    
+}
+.display h1{
+    font-size: 35px;
+    color: #000;
+}
+
+form {
+    padding: 15px;
+}
+
+.calculator_input {
+    float: left;
+}
+label {
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    font-size: 20px;
+    border-radius: 78px;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    padding: 8px;
+    box-shadow: inset 5px 5px 5px #cbced1,
+    inset -5px -5px 5px #ffffff;
+
+}
+.result_area label {
+    width: 18%;
+    float: left;
+}
+.result_area input {
+    width: 450px;
+}
+.calculator_value label {
+    width: 36%;
+    float: left;
+}
+.calculator_value input {
+    width: 64%;
+}
+.calculator_value {
+    margin-bottom: 30px;
+}
+
+.calculator_input {
+    padding: 0px 23px;
+    margin-bottom: 30px;
+    /* margin-left: 25px; */
+}
+
+.result_area {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+button#convert {
+    float: right;
+}
+button.cal-btn {
+    width: 45%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #0977aa;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+#input_value{
+    width: 450px;
+}
+#input{
+    
+     border-radius: 10px;
+     background-color: rgb(245, 242, 239);
+     text-align: center;
+     padding: 5px;
+}
+#output{
+    border-radius: 10px;
+    background-color: rgb(245, 242, 239);
+    text-align: center;
+    padding: 5px;
+}
+
+
